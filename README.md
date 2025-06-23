@@ -80,7 +80,7 @@ php artisan migrate
 - By default, all authenticated users can create/edit lessons. For real-world use, add a role check in `LessonController`.
 
 ## AI Tool Used
-- [OpenAI GPT-3.5/4 API](https://platform.openai.com/docs/api-reference/introduction)
+- [cohere v2 API](https://docs.cohere.com/v2/cohere-documentation)
 
 ## Customization
 - To use another AI provider (like HuggingFace), update the `ask` method in `LessonController.php`.
