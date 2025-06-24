@@ -77,6 +77,9 @@ php artisan serve
 
 # Terminal 2 - Frontend (if crypto error, see troubleshooting below)
 npm run dev
+
+# A single Terminal - Frontend and Backend (if crypto error, see troubleshooting below)
+composer run dev
 ```
 
 ### 6. **Access Your App**
